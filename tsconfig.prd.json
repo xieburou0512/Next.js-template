@@ -21,10 +21,10 @@
 		"baseUrl": ".",
 		"paths": {
 			"~/*": ["./*"],
-			"@/*": ["src/*"],
-			"~/config/*": ["src/config/dev/*"]
+			"~/config/*": ["src/config/prod/*"],
+			"@/*": ["src/*"]
 		}
 	},
-	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "next.config.mjs"],
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "next-css-obfuscator.config.cjs"],
 	"exclude": ["node_modules"]
 }

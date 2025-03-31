@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "bun --bun next dev",
-    "build": "bun --bun next build",
+    "build": "next build",
+    "build:test": "cross-env NODE_ENV=test next build",
+    "build:prod": "cross-env NODE_ENV=production next build",
     "start": "bun --bun next start",
     "lint": "bun --bun next lint",
     "prettier": "bun prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
@@ -20,6 +22,10 @@
     "@lingui/react": "^4.11.3",
     "cookies-next": "^4.2.1",
     "@serwist/next": "^9.0.8",
+    "ky": "^1.7.2",
+    "swr": "^2.2.5",
+    "husky": "^9.1.6",
+    "cross-env": "^7.0.3",
     "@next/bundle-analyzer": "^14.2.13"
   },
   "devDependencies": {
@@ -38,6 +44,11 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.13"
   },
+  "husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
   "lint-staged": {
     "plugins": [
       "prettier-plugin-tailwindcs"
