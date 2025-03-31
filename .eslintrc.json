@@ -1,0 +1,12 @@
+{
+	"extends": ["next/core-web-vitals", "next/typescript"],
+	"rules": {
+		// 关闭未使用变量检测
+		"@typescript-eslint/no-unused-vars": "off",
+		//关闭img 使用检测
+		"@next/next/no-img-element": "off",
+		//关闭any 使用检测
+		"@typescript-eslint/no-explicit-any": "off",
+		"@typescript-eslint/no-unused-expressions": "off"
+	}
+}

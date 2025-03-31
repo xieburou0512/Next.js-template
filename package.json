@@ -6,12 +6,21 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
+    "extract": "lingui extract --clean && git add . && git commit -m 'lingui' && git push",
+    "extract-test": "lingui extract --clean "
   },
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.13"
+    "next": "14.2.13",
+    "@lingui/core": "^4.11.3",
+    "@lingui/macro": "^4.11.3",
+    "@lingui/react": "^4.11.3",
+    "cookies-next": "^4.2.1",
+    "@serwist/next": "^9.0.8",
+    "@next/bundle-analyzer": "^14.2.13"
   },
   "devDependencies": {
     "typescript": "^5",
@@ -19,6 +28,26 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "prettier": "^3.3.3",
+		"prettier-plugin-tailwindcss": "^0.6.6",
+    "tailwindcss": "^3.4.1",
+    "@lingui/format-po": "^4.11.3",
+    "@lingui/loader": "^4.11.3",
+    "@lingui/swc-plugin": "4.0.8",
+    "lint-staged": "^15.2.10",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.13"
+  },
+  "lint-staged": {
+    "plugins": [
+      "prettier-plugin-tailwindcs"
+    ],
+    "*.{js,jsx,less,md,json,ts,tsx}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write"
+    ],
+    "*.{js,jsx,ts,tsx}": "eslint --fix"
   }
 }

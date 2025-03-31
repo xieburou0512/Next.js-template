@@ -1,0 +1,1418 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-24 11:07+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.5\n"
+
+#. js-lingui-id: ELgMjI
+msgid "{0} ({1}) wants to collect your MBTI personality"
+msgstr "{0} ({1}) 想要收集你的 MBTI 个性"
+
+#. js-lingui-id: O+hRKg
+msgid "{0} {1} Is About to Be Transferred to Your Wallet ({2})"
+msgstr "{0} {1} 即将提现到你的钱包 ({2})"
+
+#. js-lingui-id: D1QJYs
+msgid "{0} {1}! Join[{2}]'s recruitment and get {3} guaranteed.[{url}]"
+msgstr "{0} {1}! 加入[{2}]的招募并获得{3}保证。[{url}]"
+
+#. js-lingui-id: UnuhvS
+msgid "{0} ETH has initiated withdrawal, please complete the operation within {diffTime}"
+msgstr "{0} ETH 已发起提现，请在 {diffTime} 内完成操作"
+
+#. js-lingui-id: fPa3dU
+msgid "{0} s"
+msgstr "{0} 秒"
+
+#. js-lingui-id: oZVb0M
+msgid "{0} USDT"
+msgstr "{0} USDT"
+
+#. js-lingui-id: Ym8cvI
+msgid "+20%"
+msgstr "+20%"
+
+#. js-lingui-id: MgOdrm
+msgid "20% commission"
+msgstr "20% 佣金"
+
+#. js-lingui-id: uyJsf6
+msgid "About"
+msgstr "关于"
+
+#. js-lingui-id: C0LCKN
+msgid "About Us"
+msgstr "关于PoPP"
+
+#. js-lingui-id: AeXO77
+msgid "Account"
+msgstr "账户"
+
+#. js-lingui-id: 6jYduA
+msgid "Acquire identity"
+msgstr "获取身份"
+
+#. js-lingui-id: l9NRHC
+msgid "Add Twitter/X"
+msgstr "添加 X(Twitter)"
+
+#. js-lingui-id: IPA6WI
+msgid "Address（TBA）"
+msgstr "地址（PoPP护照）"
+
+#. js-lingui-id: IDBY7g
+msgid "advantage"
+msgstr "优势"
+
+#. js-lingui-id: kX5uVS
+msgid "Adventurer"
+msgstr "探索者"
+
+#. js-lingui-id: C99ZyJ
+msgid "After MBTI is on-chain, you can join in the special MBTI OAT event and win 6000 SD"
+msgstr "在MBTI上链后，你可以参加MBTI OAT活动并有机会赢取 6000 SD"
+
+#. js-lingui-id: N40H+G
+msgid "All"
+msgstr "全部"
+
+#. js-lingui-id: WPsBg4
+msgid "All completed"
+msgstr "全部完成"
+
+#. js-lingui-id: 1XX+yF
+msgid "Already mint"
+msgstr "已铸造"
+
+#. js-lingui-id: d2sgij
+msgid "As projects continue to post tasks on PoPP, you can redeem your identity valuation by completing them"
+msgstr "随着项目方持续在PoPP上发布招募任务，你可以通过完成它们来兑现你的身份价值"
+
+#. js-lingui-id: X2T43G
+msgid "As projects continue to post tasks on PoPP, you can redeem your identity valuation by completing them;"
+msgstr "随着项目方持续在PoPP上发布招募任务，你可以通过完成它们来兑现你的身份价值；"
+
+#. js-lingui-id: 7/lIUx
+msgid "Authorise"
+msgstr "授权"
+
+#. js-lingui-id: csDS2L
+msgid "Available"
+msgstr "可铸造"
+
+#. js-lingui-id: kfcRb0
+msgid "Avatar"
+msgstr "头像"
+
+#. js-lingui-id: 7DFRTh
+msgid "Awards are being issued"
+msgstr "奖励正在发放中"
+
+#. js-lingui-id: iH8pgl
+msgid "Back"
+msgstr "返回"
+
+#. js-lingui-id: mGX/Gs
+msgid "Benefactor"
+msgstr "你的贵人"
+
+#. js-lingui-id: mwkGg5
+msgid "BENEFACTOR"
+msgstr "你的贵人"
+
+#. js-lingui-id: uLbAbv
+msgid "Binding Successful"
+msgstr "绑定成功"
+
+#. js-lingui-id: DRr33W
+msgid "Boost Success"
+msgstr "提升成功"
+
+#. js-lingui-id: eo/qcW
+msgid "Bound"
+msgstr "绑定"
+
+#. js-lingui-id: bY/nD9
+msgid "Bounty"
+msgstr "招募"
+
+#. js-lingui-id: Vv4rR3
+msgid "Bounty Hunter"
+msgstr "赏金猎人"
+
+#. js-lingui-id: kKq+on
+msgid "Bounty:"
+msgstr "已兑现："
+
+#. js-lingui-id: wRJzr+
+msgid "Build Super airdrop accounts and cash in identity value"
+msgstr "创建超级空投账户以兑现身份价值"
+
+#. js-lingui-id: JP/oYq
+msgid "Build Your Unique Social Identity with On-chain Achievement Tokens"
+msgstr "通过链上成就代币（OAT）构建你独特的社交身份"
+
+#. js-lingui-id: UWdqL/
+msgid "Build your Web3 social identity with rich OAT, securing a one-time effort for ongoing ecosystem rewards."
+msgstr "利用丰富的链上成就代币（OAT）塑造你的 Web3 社交身份，一次努力获得来自PoPP生态的持续奖励。"
+
+#. js-lingui-id: GKdctm
+msgid "Call for cash"
+msgstr "招募兑现"
+
+#. js-lingui-id: dEgA5A
+msgid "Cancel"
+msgstr "取消"
+
+#. js-lingui-id: Hsf8uD
+msgid "Cashed in"
+msgstr "兑现"
+
+#. js-lingui-id: o4cG22
+msgid "Cashed in:"
+msgstr "兑现："
+
+#. js-lingui-id: AnzKmg
+msgid "Cashed in："
+msgstr "兑现："
+
+#. js-lingui-id: 8ndNTf
+msgid "cashed:"
+msgstr "已兑现："
+
+#. js-lingui-id: t0RtsF
+msgid "Cashing list"
+msgstr "兑现排行榜"
+
+#. js-lingui-id: dFOAZM
+msgid "Choose Your First Wallet"
+msgstr "选择你的第一个钱包"
+
+#. js-lingui-id: hom7qf
+msgid "Claim"
+msgstr "领取"
+
+#. js-lingui-id: bLsaEm
+msgid "Claim {0}SD"
+msgstr "领取 {0}星辰"
+
+#. js-lingui-id: hRWvpI
+msgid "Claimed"
+msgstr "已领取"
+
+#. js-lingui-id: OAUArQ
+msgid "Claimed successfully"
+msgstr "领取成功"
+
+#. js-lingui-id: pPcKTs
+msgid "Click above to try again."
+msgstr "点击上方重试。"
+
+#. js-lingui-id: yz7wBu
+msgid "Close"
+msgstr "关闭"
+
+#. js-lingui-id: prpg96
+msgid "Co-Host"
+msgstr "联合主办方"
+
+#. js-lingui-id: aSB2dg
+msgid "COLLECT"
+msgstr "收集"
+
+#. js-lingui-id: LS8swp
+msgid "Collect MBTI"
+msgstr "收集 MBTI"
+
+#. js-lingui-id: i50Dr9
+msgid "Collect rewards: <0>{0} SD</0>"
+msgstr "收集奖励：<0>{0} 星辰</0>"
+
+#. js-lingui-id: dliD/e
+msgid "Collect your friend's MBTI"
+msgstr "收集你朋友的 MBTI"
+
+#. js-lingui-id: dvuuhx
+msgid "Collect your friends’ MBTI. There will be rewards for collecting the same type of personality and giant SD bonus for collecting all 16 personalities."
+msgstr "收集你朋友的 MBTI。收集相同类型的人格将获得奖励，收集全部16种人格以获得巨额星辰奖励。"
+
+#. js-lingui-id: nSG2ed
+msgid "collection of 16 personality rewards <0>{0} SD</0>"
+msgstr "收集16 种人格获得 <0>{0} 星辰</0>"
+
+#. js-lingui-id: bD8I7O
+msgid "Complete"
+msgstr "关闭"
+
+#. js-lingui-id: PaktbU
+msgid "Complete recruitment tasks. Massive SD to be collected"
+msgstr "完成招募任务。海量星辰等你获取"
+
+#. js-lingui-id: qpHK++
+msgid "Complete the following 6 tests with your <0>[first intuition]</0>"
+msgstr "根据你的 <0>[第一直觉]</0> 完成以下 6 个测试"
+
+#. js-lingui-id: 7VpPHA
+msgid "Confirm"
+msgstr "确认"
+
+#. js-lingui-id: pwUZo2
+msgid "Confirming..."
+msgstr "正在确认..."
+
+#. js-lingui-id: MT7mar
+msgid "Congrats! You got {0} SD"
+msgstr "恭喜你您获得了 {0} 星辰点"
+
+#. js-lingui-id: iSLIjg
+msgid "Connect"
+msgstr "连接"
+
+#. js-lingui-id: CtByM7
+msgid "Connect Wallet"
+msgstr "连接钱包"
+
+#. js-lingui-id: UOXwNL
+msgid "Connection in Your Wallet"
+msgstr "在您的钱包中连接"
+
+#. js-lingui-id: Bhgd0l
+msgid "Contact us"
+msgstr "联系PoPP"
+
+#. js-lingui-id: 7daQ8E
+msgid "Contract："
+msgstr "合约："
+
+#. js-lingui-id: 8CiilX
+msgid "Copied successfully"
+msgstr "复制成功"
+
+#. js-lingui-id: aSXZtt
+msgid "Copy collection link"
+msgstr "复制收集链接"
+
+#. js-lingui-id: y1eoq1
+msgid "Copy link"
+msgstr "复制链接"
+
+#. js-lingui-id: KnSRJf
+msgid "Copy Successful"
+msgstr "复制成功"
+
+#. js-lingui-id: RTxUjI
+msgid "Copy to Clipboard"
+msgstr "复制到剪贴板"
+
+#. js-lingui-id: X4kozV
+msgid "Create PoPP Account"
+msgstr "创建PoPP护照"
+
+#. js-lingui-id: qmr1Jf
+msgid "Create PoPP Profile"
+msgstr "创建PoPP护照"
+
+#. js-lingui-id: +m9cet
+msgid "Create super airdrop accounts to cash in on identity value"
+msgstr "创建超级空投账户以兑现你的身份价值"
+
+#. js-lingui-id: z9Kme3
+msgid "Create your first PoPP Profile to receive extra SD"
+msgstr "创建你的第一个PoPP护照以获得额外的 SD"
+
+#. js-lingui-id: TQ71uX
+msgid "Current recruit"
+msgstr "当前招募"
+
+#. js-lingui-id: JmF5Zg
+msgid "Date(UTC+8): {0} - {1}"
+msgstr "时间（UTC+8）：{0} - {1}"
+
+#. js-lingui-id: XvEZx/
+msgid "Digital Identity"
+msgstr "数字身份"
+
+#. js-lingui-id: +K0AvT
+msgid "Disconnect"
+msgstr "连接断开"
+
+#. js-lingui-id: +VjIRo
+msgid "Distributed Prize"
+msgstr "提供的奖额"
+
+#. js-lingui-id: yoi4tX
+msgid "Don't remind me next time"
+msgstr "下次不需要提醒"
+
+#. js-lingui-id: sJodVY
+msgid "Download Picture"
+msgstr "下载图片"
+
+#. js-lingui-id: WF9jAI
+msgid "Download Plugin"
+msgstr "下载插件"
+
+#. js-lingui-id: dWsJta
+msgid "Download successfully"
+msgstr "下载成功"
+
+#. js-lingui-id: ePK91l
+msgid "Edit"
+msgstr "编辑"
+
+#. js-lingui-id: QJQd1J
+msgid "Edit Profile"
+msgstr "编辑个人资料"
+
+#. js-lingui-id: O3oNi5
+msgid "Email"
+msgstr "电子邮件"
+
+#. js-lingui-id: a+PKUV
+msgid "Email address is incorrect"
+msgstr "电子邮件地址不正确"
+
+#. js-lingui-id: CU5sFo
+msgid "Email binding"
+msgstr "绑定电子邮件"
+
+#. js-lingui-id: bPI2dF
+msgid "Email subscription:"
+msgstr "订阅邮件："
+
+#. js-lingui-id: fdV1o6
+msgid "Engage with the PoPP community, start your social adventure, and receive SD incentives."
+msgstr "加入PoPP社区，开始你的社交冒险，获得星辰奖励。"
+
+#. js-lingui-id: lYGfRP
+msgid "English"
+msgstr "中文"
+
+#. js-lingui-id: tWe3DB
+msgid "Equipped"
+msgstr "装备完成"
+
+#. js-lingui-id: Qkl9jP
+msgid "Equipped Successfully"
+msgstr "装备成功"
+
+#. js-lingui-id: SlfejT
+msgid "Error"
+msgstr "错误"
+
+#. js-lingui-id: kHnJuk
+msgid "Estimated value"
+msgstr "评估价值"
+
+#. js-lingui-id: tSkE51
+msgid "Estimated value:"
+msgstr "评估价值："
+
+#. js-lingui-id: eKCIlT
+msgid "Estimated："
+msgstr "估值为："
+
+#. js-lingui-id: Qgb0ZQ
+msgid "Estimated：{0} USDT"
+msgstr "估值为：{0} USDT"
+
+#. js-lingui-id: FDRUdE
+msgid "Evaluating"
+msgstr "评估中"
+
+#. js-lingui-id: GaxcOQ
+msgid "Evaluation failure"
+msgstr "评估失败"
+
+#. js-lingui-id: 0pC/y6
+msgid "Event"
+msgstr "活动"
+
+#. js-lingui-id: vxUdj6
+msgid "Every reward mission update, we will notify you as soon as possible"
+msgstr "奖励任务每次更新，PoPP都会尽快通知你"
+
+#. js-lingui-id: aMrbI/
+msgid "Every time a mission is completed"
+msgstr "每当一个任务完成时"
+
+#. js-lingui-id: 8tjQCz
+msgid "Explore"
+msgstr "探索"
+
+#. js-lingui-id: vtJ2yO
+msgid "Explorer"
+msgstr "探索者"
+
+#. js-lingui-id: xXNbr6
+msgid "Extended identity matrix"
+msgstr "扩展你的身份矩阵"
+
+#. js-lingui-id: OmJWMM
+msgid "Failed to receive"
+msgstr "接收失败"
+
+#. js-lingui-id: YirHq7
+msgid "Feedback"
+msgstr "反馈"
+
+#. js-lingui-id: 4dQFvz
+msgid "Finished"
+msgstr "完成"
+
+#. js-lingui-id: LXRl1i
+msgid "Focus on 30+ brand parties to fulfill the identity value of PoPP profile"
+msgstr "与400+项目方一起，用PoPP Profile兑现你的身份估值"
+
+#. js-lingui-id: 9k8ycp
+msgid "For every TBA created by a friend, you earn a"
+msgstr "每当朋友创建一个PoPP护照，你就能获得一"
+
+#. js-lingui-id: CtS+ZI
+msgid "Fortune <0/> Booster"
+msgstr "奖励<0/>增幅器"
+
+#. js-lingui-id: vfkntz
+msgid "Fortune Booster"
+msgstr "奖励增幅器"
+
+#. js-lingui-id: JFUEGi
+msgid "FORTUNE BOOSTER"
+msgstr "奖励增幅器"
+
+#. js-lingui-id: ceNlFU
+msgid "Gain OAT mint access to enhance your identity"
+msgstr "获得OAT的铸造资格，可提高身份估值"
+
+#. js-lingui-id: lgCzyT
+msgid "Generate Result"
+msgstr "生成结果"
+
+#. js-lingui-id: OaDvJC
+msgid "Get Your"
+msgstr "获取你的"
+
+#. js-lingui-id: TmWI3L
+msgid "Go get it"
+msgstr "去获取"
+
+#. js-lingui-id: x6rUqf
+msgid "Half term is redeemable"
+msgstr "本期可兑现"
+
+#. js-lingui-id: Vey571
+msgid "Has been shortlisted"
+msgstr "已列入候选名单"
+
+#. js-lingui-id: Y2ZsVi
+msgid "Has helped <0>{0}({1})</0>successfully collects <1>{2}</1>"
+msgstr "已帮助<0>{0}({1})</0>成功收集<1>{2}</1>"
+
+#. js-lingui-id: cIGApK
+msgid "Help & Feedback"
+msgstr "联系PoPP"
+
+#. js-lingui-id: ta2Oa3
+msgid "Here you can link premium brands with high value users"
+msgstr "这里，你可以将高价值用户与优质品牌相互连接"
+
+#. js-lingui-id: YJMNeo
+msgid "Hold"
+msgstr "持有"
+
+#. js-lingui-id: YVeGZ2
+msgid "How to get more SD？"
+msgstr "如何获得更多星辰？"
+
+#. js-lingui-id: euBgGI
+msgid ""
+"I got the [ {name} ] OAT on PoPP.\n"
+"Verify the exclusive identity bound to your soul and get exclusive prize pool rewards ✨\n"
+"Let the world know you 🌐✨\n"
+"Click for details: 🔗 {url}"
+msgstr ""
+"我在PoPP上获得了[ {name} ] OAT。\n"
+"验证与您的灵魂绑定的独特身份，并获得独家奖池奖励✨\n"
+"让世界知道你🌐✨\n"
+"点击查看详情：🔗 {url}"
+
+#. js-lingui-id: 9LFwvO
+msgid "Identity valuation"
+msgstr "身份估值"
+
+#. js-lingui-id: Wr6wup
+msgid "Identity valuation grows as you continue on-chain behavior, OAT updates, and recruitment updates"
+msgstr "随着您的链上行为、OAT更新和完成招募的持续进行，身份估值会增长"
+
+#. js-lingui-id: BX8uc8
+msgid "Identity value chain"
+msgstr "我的价值来源"
+
+#. js-lingui-id: eWrXFr
+msgid "Identity value comes from the brand's recognition of your identity"
+msgstr "身份估值来自项目方对您身份的认可"
+
+#. js-lingui-id: tbgApc
+msgid "Identity value comes from the brand's recognition of your identity;"
+msgstr "身份估值来自项目方对您身份的认可："
+
+#. js-lingui-id: Tm0aAN
+msgid "If they already have an MBTI OAT, you can collect their MBTI after they [agree]."
+msgstr "如果他们已经获得MBTI OAT，你可以在他们[同意]后收集他们的MBTI。"
+
+#. js-lingui-id: l3bvSJ
+msgid "If they do not have an MBTI OAT, they need to Mint an MBTI OAT, and then you can collect their MBTI"
+msgstr "如果他们没有MBTI OAT，则需要铸造一个MBTI OAT，然后你可以收集他们的MBTI"
+
+#. js-lingui-id: gbbkE7
+msgid "Ignore"
+msgstr "忽略"
+
+#. js-lingui-id: WVY/RX
+msgid "Ill-fated <0/> Encounter"
+msgstr "你的<0/>孽缘"
+
+#. js-lingui-id: hZYDPZ
+msgid "Ill-fated Encounter"
+msgstr "你的孽缘"
+
+#. js-lingui-id: eEd37r
+msgid "ILL-FATED ENCOUNTER"
+msgstr "你的孽缘"
+
+#. js-lingui-id: s3GF9z
+msgid "In the assessment, this may take a few minute"
+msgstr "你的身份价值在评估中，这可能需要几分钟"
+
+#. js-lingui-id: 4pshJV
+msgid "Instant social interaction and AI information assistants enable everyone to easily use Web3.easily use Web3."
+msgstr "即时的社交互动和AI信息助手使每个人都能轻松使用Web3。"
+
+#. js-lingui-id: XV6hlQ
+msgid "Invalid phone number format"
+msgstr "无效的电话格式"
+
+#. js-lingui-id: LjIc/y
+msgid "It's most in tune with you："
+msgstr "这与你最契合："
+
+#. js-lingui-id: 2gMuHR
+msgid "Joined"
+msgstr "已加入"
+
+#. js-lingui-id: 1urq5t
+msgid "Last evaluation"
+msgstr "最终评估结果"
+
+#. js-lingui-id: MngVwx
+msgid "Launch Mini APP"
+msgstr "启动迷你应用"
+
+#. js-lingui-id: tHPbHS
+msgid "Leaderboard"
+msgstr "排行榜"
+
+#. js-lingui-id: VAUSG1
+msgid "Let the<0> World </0>Discover You<1/>Meet the People You<2/>Want to <3>Know</3>"
+msgstr "让<0>世界</0>发现你<1/>遇见你<2/>想要<3>认识的人</3>"
+
+#. js-lingui-id: 5t9isC
+msgid "Linked Server Failed"
+msgstr "服务器连接失败"
+
+#. js-lingui-id: Z3FXyt
+msgid "Loading..."
+msgstr "加载中..."
+
+#. js-lingui-id: vW8rpB
+msgid "Log in to see if you can help him collect MBTI"
+msgstr "登录以查看你是否能帮助他收集MBTI"
+
+#. js-lingui-id: z0t9bb
+msgid "Login"
+msgstr "登录"
+
+#. js-lingui-id: mcQI/+
+msgid "Login Now"
+msgstr "立即登录"
+
+#. js-lingui-id: gk79CG
+msgid "MBTI"
+msgstr "MBTI"
+
+#. js-lingui-id: F0O5up
+msgid "Mint Identity"
+msgstr "铸造身份"
+
+#. js-lingui-id: 2rAR0t
+msgid "Mint MBTI OAT"
+msgstr "铸造MBTI OAT"
+
+#. js-lingui-id: zJ4hMf
+msgid "MINT NOW"
+msgstr "立即铸造"
+
+#. js-lingui-id: xhWj2F
+msgid "Mint Social Identity"
+msgstr "铸造社交身份"
+
+#. js-lingui-id: dMsM20
+msgid "Mobile"
+msgstr "手机"
+
+#. js-lingui-id: sYCi6W
+msgid "Mobile Identification"
+msgstr "手机认证"
+
+#. js-lingui-id: HSbyMS
+msgid "Modification failed"
+msgstr "修改失败"
+
+#. js-lingui-id: IRcujF
+msgid "Modification of binding is temporarily unsupported"
+msgstr "绑定修改暂时不支持"
+
+#. js-lingui-id: pvTuhK
+msgid "Modification successful"
+msgstr "修改成功"
+
+#. js-lingui-id: zyAma9
+msgid "MORE"
+msgstr "更多"
+
+#. js-lingui-id: SmcZET
+msgid "More activities are coming soon"
+msgstr "更多活动即将到来"
+
+#. js-lingui-id: +69+WR
+msgid "More recruitment"
+msgstr "更多招募"
+
+#. js-lingui-id: CkO5ep
+msgid "My invitation code"
+msgstr "我的邀请码"
+
+#. js-lingui-id: MsniQL
+msgid "My valuation breakdown (Top 5)"
+msgstr "我的估值明细（前 5 名）"
+
+#. js-lingui-id: UxKoFf
+msgid "Navigation"
+msgstr "导航"
+
+#. js-lingui-id: OR475H
+msgid "Network"
+msgstr "网络"
+
+#. js-lingui-id: hXzOVo
+msgid "Next"
+msgstr "下一步"
+
+#. js-lingui-id: lyNTva
+msgid "NFT information"
+msgstr "NFT 信息"
+
+#. js-lingui-id: y74odA
+msgid "Nick Name"
+msgstr "昵称"
+
+#. js-lingui-id: ItekQ6
+msgid "No more recruits at this time, please wait for the next reward mission"
+msgstr "目前没有更多招募，请等待下一个奖励任务"
+
+#. js-lingui-id: I3muPn
+msgid "No record yet"
+msgstr "尚无记录"
+
+#. js-lingui-id: 2XzhbH
+msgid "No TBA held"
+msgstr "没有持有PoPP护照"
+
+#. js-lingui-id: q4SHdS
+msgid "Not wearing"
+msgstr "未佩戴"
+
+#. js-lingui-id: wQ5066
+msgid "NOTE: An MBTI OAT can be collected a maximum of 3 times"
+msgstr "注意：MBTI OAT最多可被收集3次"
+
+#. js-lingui-id: dgo7Qd
+msgid "NOTE: An MBTI OAT can be collected a maximum of 3 times (you have {0} remaining)"
+msgstr "注意：MBTI OAT最多可被收集3次（您还有{0}次机会）"
+
+#. js-lingui-id: bTEOqM
+msgid "OAT"
+msgstr "OAT"
+
+#. js-lingui-id: vX1PYP
+msgid "OAT Display"
+msgstr "OAT展示"
+
+#. js-lingui-id: 1X5KOL
+msgid "Obtained"
+msgstr "已获得"
+
+#. js-lingui-id: QU7rCz
+msgid "Official feedback email"
+msgstr "反馈邮箱"
+
+#. js-lingui-id: zga9sT
+msgid "OK"
+msgstr "确认"
+
+#. js-lingui-id: Zr/Fwn
+msgid "on chain:"
+msgstr "已铸造："
+
+#. js-lingui-id: XUfEX0
+msgid "On-Chain"
+msgstr "链上"
+
+#. js-lingui-id: H+BaBj
+msgid "On-chain record"
+msgstr "链上记录"
+
+#. js-lingui-id: pUcRsl
+msgid "On-chain view"
+msgstr "链上视图"
+
+#. js-lingui-id: Zh+DCU
+msgid "Ongoing Super Airdrop Event"
+msgstr "正在进行的超级空投活动"
+
+#. js-lingui-id: CRAhX5
+msgid "Participable"
+msgstr "可参与的"
+
+#. js-lingui-id: B0Pxyt
+msgid "Participate in recruitment, redeemable value"
+msgstr "参与招募，兑现价值"
+
+#. js-lingui-id: yVhDf6
+msgid "peculiarity"
+msgstr "特质"
+
+#. js-lingui-id: qj1DDV
+msgid "Perfect <0/> Match"
+msgstr "完美 <0/> 匹配"
+
+#. js-lingui-id: 5Q2bU1
+msgid "Perfect Match"
+msgstr "完美匹配"
+
+#. js-lingui-id: FBNoZK
+msgid "PERFECT MATCH"
+msgstr "完美匹配"
+
+#. js-lingui-id: j1wRro
+msgid "Periods"
+msgstr "期次"
+
+#. js-lingui-id: RKe1iP
+msgid "Personal center"
+msgstr "个人中心"
+
+#. js-lingui-id: IzBQrW
+msgid "Personality"
+msgstr "个性"
+
+#. js-lingui-id: xe6agX
+msgid "Personality <0/> diagram"
+msgstr "关系 <0/> 图谱"
+
+#. js-lingui-id: 6uzDeZ
+msgid "Personality <0/>diagram"
+msgstr "关系 <0/>图谱"
+
+#. js-lingui-id: 3caZnK
+msgid "Personality diagram"
+msgstr "关系图谱"
+
+#. js-lingui-id: Z17diS
+msgid "Phase {0}"
+msgstr "第{0}期"
+
+#. js-lingui-id: R/C8rk
+msgid "Phase {phaseNumber}"
+msgstr "阶段 {phaseNumber}"
+
+#. js-lingui-id: sUUu1I
+msgid "Piece"
+msgstr "枚"
+
+#. js-lingui-id: BX1rQx
+msgid "Pieces"
+msgstr "枚"
+
+#. js-lingui-id: OvbwW0
+msgid "Play one's hand"
+msgstr "放手一搏"
+
+#. js-lingui-id: P/aG1c
+msgid "Please enter the verification code"
+msgstr "请输入验证码"
+
+#. js-lingui-id: 7Mfw+B
+msgid "Please enter your email account"
+msgstr "请输入您的电子邮件账户"
+
+#. js-lingui-id: pzY5XK
+msgid "Please enter your email address"
+msgstr "请输入您的电子邮件地址"
+
+#. js-lingui-id: 4gisv5
+msgid "Please enter your estimate of the value of your identity"
+msgstr "请预估您的自己身份价值"
+
+#. js-lingui-id: 81/1uE
+msgid "Please enter your nickname"
+msgstr "请输入您的昵称"
+
+#. js-lingui-id: x4uFgL
+msgid "Please enter your phone number"
+msgstr "请输入您的电话号码"
+
+#. js-lingui-id: 5eCJd4
+msgid "Please sign within {diffTime}, otherwise your claim eligibility will be frozen for 5 minutes"
+msgstr "请在{diffTime}分钟内完成签名，否则你的领取资格会被冻结5分钟"
+
+#. js-lingui-id: 8AKWje
+msgid "Please stick to the network and click Retry"
+msgstr "请保持网络连接并点击重试"
+
+#. js-lingui-id: P4XnSP
+msgid "PoPP Ecology"
+msgstr "PoPP 生态"
+
+#. js-lingui-id: vNNQmc
+msgid "PoPP gathers a large number of highly qualified bounty hunters, as long as you offer enough bounty, they are willing to participate in your reward mission."
+msgstr "PoPP 聚集了大量高质量的赏金猎人。只要赏金诱人，他们就会跃跃欲试，随时准备执行任务。"
+
+#. js-lingui-id: fFx4GD
+msgid "PoPP Journey"
+msgstr "PoPP 旅程"
+
+#. js-lingui-id: Z7PTLj
+msgid "PoPP keeps fueling super airdrop social accounts Join the events below to gain profits"
+msgstr "PoPP 不断推动超级空投账户，加入以下活动获取奖励"
+
+#. js-lingui-id: Pa7t+R
+msgid "PoPP Official Community"
+msgstr "社区"
+
+#. js-lingui-id: 9dizS5
+msgid "PoPP Profile, Get Your Exclusive Referral Code"
+msgstr "获取你的专属推荐码"
+
+#. js-lingui-id: G9b4jn
+msgid "Post Recruitment"
+msgstr "发布招募"
+
+#. js-lingui-id: LcET2C
+msgid "Privacy Policy"
+msgstr "隐私政策"
+
+#. js-lingui-id: VbWX2u
+msgid "Quantity"
+msgstr "数量"
+
+#. js-lingui-id: 3awOET
+msgid "Rank"
+msgstr "排名"
+
+#. js-lingui-id: 02eUQl
+msgid "Ranking"
+msgstr "排名"
+
+#. js-lingui-id: GJVdHD
+msgid "Re-test"
+msgstr "重新测试"
+
+#. js-lingui-id: XNHuL/
+msgid "Reached Bottom"
+msgstr "已到底部"
+
+#. js-lingui-id: 3us+Cz
+msgid "Reappraise"
+msgstr "重新评估"
+
+#. js-lingui-id: 7+xVS7
+msgid "Receive a reward"
+msgstr "收到一份奖励"
+
+#. js-lingui-id: fZ5Vnu
+msgid "Received"
+msgstr "已收取"
+
+#. js-lingui-id: UlNpHg
+msgid "Received/Total copies"
+msgstr "已收取/总份数"
+
+#. js-lingui-id: vy2vpp
+msgid "Receiving address"
+msgstr "接收地址"
+
+#. js-lingui-id: hRsao9
+msgid "Recommend"
+msgstr "推荐"
+
+#. js-lingui-id: oVEIRb
+msgid "Recruiter"
+msgstr "招募者"
+
+#. js-lingui-id: k75SNU
+msgid "Recruiting Season 2: Socialmeme"
+msgstr "Social Meme第二季冬日狂潮来袭"
+
+#. js-lingui-id: 6EWT6T
+msgid "Recruitment"
+msgstr "已兑现"
+
+#. js-lingui-id: J/D59o
+msgid "Recruitment History"
+msgstr "往期招募"
+
+#. js-lingui-id: ccFbY2
+msgid "Recruitment reason"
+msgstr "招募原因"
+
+#. js-lingui-id: 7nGGek
+msgid "Redeemable"
+msgstr "人均可兑现"
+
+#. js-lingui-id: Na2q2Q
+msgid "Redeemable This Phase"
+msgstr "本期可兑现"
+
+#. js-lingui-id: veQuE7
+msgid "Referral"
+msgstr "推荐"
+
+#. js-lingui-id: /I4Fgb
+msgid "Referral Details"
+msgstr "推荐详情"
+
+#. js-lingui-id: DKGn8Y
+msgid "Referral rewards"
+msgstr "推荐奖励"
+
+#. js-lingui-id: hq34X/
+msgid "REFERRAL REWARDS"
+msgstr "推荐奖励"
+
+#. js-lingui-id: YaFKza
+msgid "Referrals"
+msgstr "推荐数"
+
+#. js-lingui-id: mG7lFk
+msgid "Request Error"
+msgstr "请求错误"
+
+#. js-lingui-id: 6gRgw8
+msgid "Retry"
+msgstr "重试"
+
+#. js-lingui-id: cZU45l
+msgid "Reward <0>5000SD</0>"
+msgstr "奖励 <0>5000星辰</0>"
+
+#. js-lingui-id: DRuxNB
+msgid "Reward amount"
+msgstr "奖励数量"
+
+#. js-lingui-id: wT72bM
+msgid "Reward mission"
+msgstr "奖励任务"
+
+#. js-lingui-id: B71Se3
+msgid "Reward mission is over, please participate in other activities >"
+msgstr "奖励任务已结束，请参与其他活动 >"
+
+#. js-lingui-id: iOV1JS
+msgid "Reward pool contract"
+msgstr "奖池合约"
+
+#. js-lingui-id: O1beYN
+msgid "Reward run out"
+msgstr "奖励已发完"
+
+#. js-lingui-id: 4cJ0hF
+msgid "Rewards"
+msgstr "奖励"
+
+#. js-lingui-id: SITt2a
+msgid "REWARDS"
+msgstr "奖励"
+
+#. js-lingui-id: /f8bBt
+msgid "REWARDS:"
+msgstr "奖励："
+
+#. js-lingui-id: r0iLuc
+msgid "Romance of <0>Web3</0>"
+msgstr "<0>Web3</0>的浪漫"
+
+#. js-lingui-id: Ol0VQh
+msgid "Rrecruit"
+msgstr "招募"
+
+#. js-lingui-id: tfDRzk
+msgid "Save"
+msgstr "保存"
+
+#. js-lingui-id: Lw2tkl
+msgid "Save picture"
+msgstr "保存图片"
+
+#. js-lingui-id: VTOGJF
+msgid "SBT Account"
+msgstr "PoPP护照"
+
+#. js-lingui-id: leYqEh
+msgid "Scan the QR code to assess and cash the value of your identity"
+msgstr "扫描二维码以评估并兑现您的身份价值"
+
+#. js-lingui-id: pox5KI
+msgid "Scan with App"
+msgstr "应用程序扫描"
+
+#. js-lingui-id: JlFcis
+msgid "Send"
+msgstr "发送"
+
+#. js-lingui-id: Tz0i8g
+msgid "Settings"
+msgstr "设置"
+
+#. js-lingui-id: Z8lGw6
+msgid "Share"
+msgstr "分享"
+
+#. js-lingui-id: UABGFO
+msgid "Share link copied successfully"
+msgstr "分享链接复制成功"
+
+#. js-lingui-id: ZB+rMI
+msgid "Share links, get SD +20% When someone creates a <0>POPP PROFILE</0> from your share, you immediately cash in about <1>2 USDT</1>"
+msgstr "分享链接，获得 SD +20% 每当有人通过您的分享创建一个<0>PoPP PROFILE</0>时，可立即兑现约<1>2 USDT</1>"
+
+#. js-lingui-id: ixUPFy
+msgid "Sign Cancelled"
+msgstr "签名取消"
+
+#. js-lingui-id: op8nnm
+msgid "Sign in Wallet"
+msgstr "钱包内签名"
+
+#. js-lingui-id: Ew2YaY
+msgid "Sign Invalid, Try Again"
+msgstr "签名无效，请重试"
+
+#. js-lingui-id: tH331u
+msgid "Signature complete"
+msgstr "签名完成"
+
+#. js-lingui-id: 6G8s+q
+msgid "Signing"
+msgstr "签名中"
+
+#. js-lingui-id: kIKb9e
+msgid "Social"
+msgstr "社交"
+
+#. js-lingui-id: P7jbWF
+msgid "Social Identity"
+msgstr "社交身份"
+
+#. js-lingui-id: CBXZMe
+msgid "StarDust"
+msgstr "星辰"
+
+#. js-lingui-id: eIDljc
+msgid "Start Answering"
+msgstr "开始回答"
+
+#. js-lingui-id: hQRttt
+msgid "Submit"
+msgstr "提交"
+
+#. js-lingui-id: GUQBRk
+msgid "Submit Success"
+msgstr "提交成功"
+
+#. js-lingui-id: EDl9kS
+msgid "Subscribe"
+msgstr "订阅"
+
+#. js-lingui-id: vnBj0K
+msgid "Subscribe to task"
+msgstr "订阅任务"
+
+#. js-lingui-id: mQy+gZ
+msgid "Subscription failed"
+msgstr "订阅失败"
+
+#. js-lingui-id: wWzuUd
+msgid "Subscription reward"
+msgstr "订阅招募"
+
+#. js-lingui-id: 5gfgLq
+msgid "Subscription Success"
+msgstr "订阅成功"
+
+#. js-lingui-id: olEUh2
+msgid "Successful"
+msgstr "成功"
+
+#. js-lingui-id: vEiN1Q
+msgid "Successfully received"
+msgstr "成功接收"
+
+#. js-lingui-id: ckYUXV
+msgid "Supported by"
+msgstr "赞助方"
+
+#. js-lingui-id: Mil0So
+msgid "Supported by <0/>{0}"
+msgstr "赞助方 <0/>{0}"
+
+#. js-lingui-id: CxyQY8
+msgid "Switch TBA Identity"
+msgstr "切换PoPP护照"
+
+#. js-lingui-id: b6AApj
+msgid "Taiko"
+msgstr "Taiko"
+
+#. js-lingui-id: wBMgej
+msgid "TBA Account"
+msgstr "PoPP护照"
+
+#. js-lingui-id: Gnuktf
+msgid "Test Web3 MBTI"
+msgstr "测试 Web3 MBTI"
+
+#. js-lingui-id: 0eKHvW
+msgid "The recruitment target of this reward mission needs to hold a “ {0} ”, please obtain this status first"
+msgstr "此奖励任务的招募目标需要持有“ {0} ”"
+
+#. js-lingui-id: dBPbsm
+msgid "The reward is distributed by the recruiter, and you can enter the shortlist by submitting the task"
+msgstr "奖励将由招聘者分发，您可以通过完成任务进入名单"
+
+#. js-lingui-id: 7u81Sh
+msgid "The task is unfinished"
+msgstr "任务尚未完成"
+
+#. js-lingui-id: 9Lo1KE
+msgid "The task is unfinished."
+msgstr "任务尚未完成。"
+
+#. js-lingui-id: 6PgJwH
+msgid "The value of my identity"
+msgstr "我的身份价值"
+
+#. js-lingui-id: XIqPky
+msgid "This is the <0>Unique</0>"
+msgstr "这是<0>独特的</0>"
+
+#. js-lingui-id: LhMjLm
+msgid "Time"
+msgstr "时间"
+
+#. js-lingui-id: We4haU
+msgid "To post a reward, please contact us:"
+msgstr "想发布奖励，请联系PoPP："
+
+#. js-lingui-id: Jk5awK
+msgid "To The Moon"
+msgstr "ToTheMoon"
+
+#. js-lingui-id: c6YvkN
+msgid "To Wallet"
+msgstr "到钱包"
+
+#. js-lingui-id: LlXebG
+msgid "Token ID:"
+msgstr "代币 ID："
+
+#. js-lingui-id: qmYDVk
+msgid "Total Rewards"
+msgstr "总奖励"
+
+#. js-lingui-id: cQBPCw
+msgid "Twitter/X"
+msgstr "X (推特)"
+
+#. js-lingui-id: i4z2La
+msgid "Twitter/X binding"
+msgstr "X (推特) 绑定"
+
+#. js-lingui-id: PJIW8T
+msgid "Unbound"
+msgstr "未绑定"
+
+#. js-lingui-id: CW12bM
+msgid "Unfinished"
+msgstr "未完成"
+
+#. js-lingui-id: K2AYEA
+msgid "Unlock MBTI to join events and win"
+msgstr "解锁 MBTI 参加活动并获得奖励"
+
+#. js-lingui-id: rUJ+AM
+msgid "Unlock MBTI to join events and win 5000 SD"
+msgstr "解锁 MBTI 参加活动并获得5000星辰奖励"
+
+#. js-lingui-id: O+FDnh
+msgid "Unlock Web3 MBTI"
+msgstr "解锁 Web3 MBTI"
+
+#. js-lingui-id: yX0fM3
+msgid "Unlock Your Web3 MBTI First"
+msgstr "先解锁您的 Web3 MBTI"
+
+#. js-lingui-id: DAE9to
+msgid "USDT"
+msgstr "USDT"
+
+#. js-lingui-id: rhVWDg
+msgid "User Agreement"
+msgstr "用户协议"
+
+#. js-lingui-id: zZrpsx
+msgid "Valuation completed"
+msgstr "估值完成"
+
+#. js-lingui-id: wMHvYH
+msgid "Value"
+msgstr "价值"
+
+#. js-lingui-id: KqolsW
+msgid "VALUE"
+msgstr "价值"
+
+#. js-lingui-id: o5QiX9
+msgid "Value Your Identity! My identity is worth {0} USDT. Come to PoPP to cash in on your value.[{url}]"
+msgstr "估算你的身份价值！我的身份价值 {0} USDT。快来 PoPP 兑现你的价值。[{url}]"
+
+#. js-lingui-id: P/Bd6P
+msgid "value:"
+msgstr "价值："
+
+#. js-lingui-id: r72JgA
+msgid "Value："
+msgstr "价值："
+
+#. js-lingui-id: WPWw1i
+msgid "Value: {0} USDT"
+msgstr "价值：{0} USDT"
+
+#. js-lingui-id: jpctdh
+msgid "View"
+msgstr "查看"
+
+#. js-lingui-id: YrcHPy
+msgid "VIEW"
+msgstr "查看"
+
+#. js-lingui-id: iQGy/5
+msgid "View Account"
+msgstr "查看账户"
+
+#. js-lingui-id: Apo+MS
+msgid "VIEW MORE"
+msgstr "更多信息"
+
+#. js-lingui-id: 9wYBdy
+msgid "View mores"
+msgstr "更多信息"
+
+#. js-lingui-id: v/slDu
+msgid "View My PoPP Account"
+msgstr "查看我的PoPP护照"
+
+#. js-lingui-id: pR/Hvi
+msgid "Wallet address"
+msgstr "钱包地址"
+
+#. js-lingui-id: ggAs6P
+msgid "We will estimate the total value of your digital identity stored in your account, and you can participate in recruitment to redeem the value of your identity"
+msgstr "PoPP会估算潜藏在您账户中的数字身份的总价值，您可以通过参与招募以兑现您的身份价值"
+
+#. js-lingui-id: t9UzMs
+msgid "Wear"
+msgstr "装备"
+
+#. js-lingui-id: ZQzbJb
+msgid "WEB3 MBTI"
+msgstr "WEB3 MBTI"
+
+#. js-lingui-id: vd+iE0
+msgid "WEB3 MBTI diagnosis results"
+msgstr "WEB3 MBTI诊断结果"
+
+#. js-lingui-id: lNY1ZV
+msgid "Web3 Quest"
+msgstr "Web3任务"
+
+#. js-lingui-id: dTe5LP
+msgid "When someone creates a <0>POPP PROFILE</0> from your share, the value of your identity increases and you can immediately cash in about <1>2 USDT</1>"
+msgstr "每当有人通过您的分享创建一个<0>PoPP PROFILE</0>时，您的身份估值会增加，并可以立即兑现约<1>2 USDT</1>"
+
+#. js-lingui-id: byri1K
+msgid "Who is my sin?!"
+msgstr "谁是我的宿命之人？！"
+
+#. js-lingui-id: nVrjlH
+msgid "Withdrawable"
+msgstr "可提取"
+
+#. js-lingui-id: KTNWsg
+msgid "Withdrawal failed"
+msgstr "提取失败"
+
+#. js-lingui-id: O4CcUx
+msgid "Withdrawal Record"
+msgstr "提取记录"
+
+#. js-lingui-id: y/0uwd
+msgid "Yesterday"
+msgstr "昨天"
+
+#. js-lingui-id: mzzkTS
+msgid "You can claim your reward again after {diffTime}"
+msgstr "{diffTime} 分钟后可重新领取奖励"
+
+#. js-lingui-id: IijtMC
+msgid "You don't have Login in yet."
+msgstr "您还没有登录。"
+
+#. js-lingui-id: hNrS4R
+msgid "You don't have OAT yet."
+msgstr "您还未持有 OAT。"
+
+#. js-lingui-id: lvrsw1
+msgid "You don't have PoPP Profile yet."
+msgstr "您还没有 PoPP 护照。"
+
+#. js-lingui-id: tmdpzm
+msgid "You have a natural affinity for each other, and each other really understands what you're thinking"
+msgstr "你们之间有着天然的亲和力，彼此都能真正理解对方的想法"
+
+#. js-lingui-id: HP5S8b
+msgid "Your identity is estimated to be"
+msgstr "您的身份价值估算为"
+
+#. js-lingui-id: C3AHas
+msgid "Your PoPP contribution proof"
+msgstr "您的 PoPP 贡献证明"
