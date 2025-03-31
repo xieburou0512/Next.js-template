@@ -12,6 +12,10 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      spacing: {
+        'top-height': '5rem',
+        'content': '80rem',
+      },
     },
   },
   plugins: [],
