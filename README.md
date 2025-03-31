@@ -2,15 +2,25 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+本项目使用 [Bun](https://bun.sh) 作为包管理器和运行时环境。
+
+1. 首先，安装Bun（如果尚未安装）：
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
+npm install -g bun
+# 或
+curl -fsSL https://bun.sh/install | bash
+```
+
+2. 安装依赖项：
+
+```bash
+bun install
+```
+
+3. 运行开发服务器：
+
+```bash
 bun dev
 ```
 

@@ -1,0 +1,16 @@
+[install]
+# 保存确切版本号而不是范围
+exact = true
+
+# 使用冻结的lockfile，确保安装一致性
+frozen = true
+
+# 为TypeScript项目自动安装@types
+types = true
+
+[dev]
+# 启用HMR
+hot = true
+
+# 在开发模式下自动打开浏览器
+open = true 

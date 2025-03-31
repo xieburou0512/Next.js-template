@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
-    "extract": "lingui extract --clean && git add . && git commit -m 'lingui' && git push",
-    "extract-test": "lingui extract --clean "
+    "dev": "bun --bun next dev",
+    "build": "bun --bun next build",
+    "start": "bun --bun next start",
+    "lint": "bun --bun next lint",
+    "prettier": "bun prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
+    "extract": "bun lingui extract --clean && git add . && git commit -m 'lingui' && git push",
+    "extract-test": "bun lingui extract --clean "
   },
   "dependencies": {
     "react": "^18",
