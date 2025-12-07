@@ -1,234 +1,371 @@
-# Next.js Enterprise Boilerplate (NEB)
+# Next.js Enterprise Boilerplate
 
 <div align="center">
 
-[![Next.js](https://img.shields.io/badge/Next.js-14.0.0-black?logo=next.js)](https://nextjs.org)
-[![Bun](https://img.shields.io/badge/Bun-1.0.0-black?logo=bun)](https://bun.sh)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0.0-blue?logo=typescript)](https://www.typescriptlang.org)
+[![Next.js](https://img.shields.io/badge/Next.js-16.0.7-black?logo=next.js)](https://nextjs.org)
+[![React](https://img.shields.io/badge/React-18.3.1-61dafb?logo=react)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-blue?logo=typescript)](https://www.typescriptlang.org)
+[![Bun](https://img.shields.io/badge/Bun-1.0+-black?logo=bun)](https://bun.sh)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4.18-38bdf8?logo=tailwind-css)](https://tailwindcss.com)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-一个现代化的企业级 Next.js 14 项目模板，集成了最佳实践和常用功能。
+🚀 A modern, production-ready Next.js 16 enterprise boilerplate with TypeScript, internationalization, PWA support, and best practices built-in.
 
-[English](./README.md) | 简体中文
+[English](./README.md) | [简体中文](./README.zh-CN.md)
+
+[Live Demo](https://your-demo-url.com) | [Documentation](./docs) | [Report Bug](https://github.com/xieburou0512/Next.js-Enterprise-Boilerplate/issues) | [Request Feature](https://github.com/xieburou0512/Next.js-Enterprise-Boilerplate/issues)
 
 </div>
 
-## ✨ 特性
+## ✨ Features
 
-- 🚀 基于 Next.js 14 和 Bun 运行时
-- 🌍 内置国际化支持 (LinguiJS)
-- 🎨 现代化的 UI 组件 (Flowbite React)
-- 📱 响应式设计
-- 🔍 SEO 优化
-- ⚡ 性能优化
-- 🔒 类型安全 (TypeScript)
-- 📦 完整的开发工具链
-- 🧪 测试支持
-- 📝 代码规范 (ESLint + Prettier)
+### Core Framework
+- ⚡ **Next.js 16.0.7** - Latest App Router with Turbopack support
+- ⚛️ **React 18.3** - Modern React features with concurrent rendering
+- 🏃 **Bun Runtime** - Ultra-fast JavaScript runtime and package manager
+- 📘 **TypeScript 5.9** - Strict type safety with latest features
 
-## 🚀 快速开始
+### Styling & UI
+- 🎨 **Tailwind CSS 3.4** - Utility-first CSS framework
+- ✨ **Framer Motion** - Production-ready animation library
+- 📱 **Responsive Design** - Mobile-first approach with device detection
 
-## 技术栈
+### Internationalization
+- 🌍 **LinguiJS** - Modern i18n solution with compile-time optimization
+- 🗣️ **Multi-language** - Built-in English and Simplified Chinese support
+- 🔄 **Dynamic routing** - Language-based URL routing with middleware
 
-- **框架**: [Next.js 14](https://nextjs.org) - React 框架
-- **运行时**: [Bun](https://bun.sh) - 高性能 JavaScript 运行时
-- **UI 组件**: [Flowbite React](https://flowbite-react.com) - 基于 Tailwind CSS 的组件库
-- **样式**: [Tailwind CSS](https://tailwindcss.com) - 实用优先的 CSS 框架
-- **状态管理**: [Zustand](https://github.com/pmndrs/zustand) - 轻量级状态管理
-- **数据获取**: [SWR](https://swr.vercel.app) - React Hooks 数据获取库
-- **国际化**: [LinguiJS](https://lingui.dev) - 国际化解决方案
-- **动画**: [Framer Motion](https://www.framer.com/motion) - 动画库
-- **工具库**: 
-  - [ahooks](https://ahooks.js.org) - React Hooks 库
-  - [moment](https://momentjs.com) - 日期处理
-  - [clsx](https://github.com/lukeed/clsx) - 类名管理
-  - [ky](https://github.com/sindresorhus/ky) - HTTP 客户端
+### State & Data
+- 🔄 **SWR** - Powerful data fetching and caching
+- 🗄️ **Zustand** - Lightweight state management
+- 🌐 **ky** - Modern HTTP client with intuitive API
 
-## 开发环境设置
+### Performance & PWA
+- 📦 **Serwist** - Service Worker for offline support
+- 🚀 **Optimized builds** - Production-ready with bundle analysis
+- ⚡ **Turbopack** - Lightning-fast development builds
 
-1. 安装 Bun（如果尚未安装）：
+### Developer Experience
+- 🔧 **ESLint + Prettier** - Consistent code style
+- 🪝 **Husky + lint-staged** - Git hooks for quality control
+- 📝 **Environment configs** - Separate dev/test/prod configurations
+- 🎯 **TypeScript paths** - Clean imports with path aliases
+
+## 📋 Table of Contents
+
+- [Quick Start](#-quick-start)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Development](#-development)
+- [Internationalization](#-internationalization)
+- [Deployment](#-deployment)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- **Node.js** >= 18.17.0 or **Bun** >= 1.0.0
+- **Git**
+
+### Installation
+
+1. **Clone the repository**
 
 ```bash
-npm install -g bun
-# 或
-curl -fsSL https://bun.sh/install | bash
+git clone https://github.com/xieburou0512/Next.js-Enterprise-Boilerplate.git
+cd Next.js-Enterprise-Boilerplate
 ```
 
-2. 安装依赖项：
+2. **Install dependencies**
 
 ```bash
+# Using Bun (recommended)
 bun install
+
+# Or using npm
+npm install
 ```
 
-3. 运行开发服务器：
+3. **Set up environment variables**
+
+```bash
+cp .env .env.local
+# Edit .env.local with your configuration
+```
+
+4. **Run development server**
 
 ```bash
 bun dev
+# or
+npm run dev
 ```
 
-## 构建和优化
+5. **Open your browser**
 
-### 环境构建
+Navigate to [http://localhost:3000](http://localhost:3000) to see your app!
+
+## 🛠 Tech Stack
+
+| Category | Technology | Version | Purpose |
+|----------|-----------|---------|---------|
+| **Framework** | [Next.js](https://nextjs.org) | 16.0.7 | React framework with App Router |
+| **Runtime** | [Bun](https://bun.sh) | 1.0+ | JavaScript runtime & package manager |
+| **Language** | [TypeScript](https://www.typescriptlang.org) | 5.9.3 | Type-safe JavaScript |
+| **UI Library** | [React](https://react.dev) | 18.3.1 | Component-based UI |
+| **Styling** | [Tailwind CSS](https://tailwindcss.com) | 3.4.18 | Utility-first CSS |
+| **Animation** | [Framer Motion](https://www.framer.com/motion) | 12.23.25 | Motion library |
+| **State** | [Zustand](https://github.com/pmndrs/zustand) | 5.0.9 | State management |
+| **Data Fetching** | [SWR](https://swr.vercel.app) | 2.3.7 | React Hooks for data |
+| **HTTP Client** | [ky](https://github.com/sindresorhus/ky) | 1.14.0 | HTTP client |
+| **i18n** | [LinguiJS](https://lingui.dev) | 5.6.1 | Internationalization |
+| **PWA** | [Serwist](https://serwist.pages.dev) | 9.2.3 | Service Worker |
+| **Utilities** | [ahooks](https://ahooks.js.org) | 3.9.6 | React Hooks collection |
+| **Date** | [moment](https://momentjs.com) | 2.30.1 | Date manipulation |
+| **Linting** | [ESLint](https://eslint.org) | 8.57.1 | Code linting |
+| **Formatting** | [Prettier](https://prettier.io) | 3.7.4 | Code formatting |
+
+## 📁 Project Structure
+
+```
+Next.js-Enterprise-Boilerplate/
+├── src/
+│   ├── app/                          # Next.js 16 App Router
+│   │   ├── [lang]/                   # Dynamic language routing
+│   │   │   ├── (frame)/              # Layout groups
+│   │   │   │   ├── (home)/           # Home page group
+│   │   │   │   │   ├── page.tsx      # Home page
+│   │   │   │   │   └── hooks/        # Page-specific hooks
+│   │   │   │   └── layout.tsx        # Frame layout
+│   │   │   ├── layout.tsx            # Language layout
+│   │   │   ├── provider.tsx          # Client providers
+│   │   │   └── providers.tsx         # Additional providers
+│   │   ├── components/               # Shared components
+│   │   │   ├── Header/               # Header component
+│   │   │   └── Body/                 # Body component
+│   │   ├── hooks/                    # App-level hooks
+│   │   ├── layout.tsx                # Root layout
+│   │   ├── globals.css               # Global styles
+│   │   ├── not-found.tsx             # 404 page
+│   │   └── sw.ts                     # Service Worker config
+│   ├── config/                       # Configuration files
+│   │   ├── base.ts                   # Base config
+│   │   ├── theme.ts                  # Theme settings
+│   │   ├── dev/                      # Development config
+│   │   └── prod/                     # Production config
+│   ├── lingui/                       # i18n setup
+│   │   ├── appRouterI18n.ts          # i18n instance
+│   │   ├── initLingui.ts             # Lingui initialization
+│   │   ├── LinguiClientProvider.tsx  # Client provider
+│   │   └── LinguiLink.tsx            # i18n Link component
+│   ├── locales/                      # Translation files
+│   │   ├── en.po                     # English translations
+│   │   └── zh-Hans.po                # Chinese translations
+│   ├── service/                      # API services
+│   │   ├── index.ts                  # API client (ky)
+│   │   └── serverApi.ts              # Server-side API
+│   └── middleware.ts                 # Next.js middleware
+├── public/                           # Static assets
+├── .github/                          # GitHub configurations
+├── .nvmrc                            # Node version
+├── next.config.mjs                   # Next.js config
+├── tsconfig.json                     # TypeScript config
+├── tailwind.config.ts                # Tailwind config
+├── lingui.config.ts                  # Lingui config
+├── .eslintrc.json                    # ESLint rules
+├── bunfig.toml                       # Bun configuration
+├── package.json                      # Dependencies
+├── CONTRIBUTING.md                   # Contribution guide
+├── CHANGELOG.md                      # Version history
+└── README.md                         # This file
+```
+
+## 🔧 Development
+
+### Available Scripts
 
 ```bash
-# 测试环境构建
-bun run build:test
+# Development
+bun dev                  # Start dev server with Turbopack
+bun build                # Build for production
+bun start                # Start production server
 
-# 生产环境构建
-bun run build:prod
+# Environment-specific builds
+bun run build:test       # Build for test environment
+bun run build:prod       # Build for production environment
+
+# Code quality
+bun lint                 # Run ESLint
+bun prettier             # Format code with Prettier
+
+# Internationalization
+bun run extract          # Extract translations and commit
+bun run extract-test     # Extract translations (test only)
+
+# Bundle analysis
+ANALYZE=true bun build   # Analyze bundle size
 ```
 
-### 构建优化策略
+### Environment Variables
 
-1. **代码分割**
-   - 使用动态导入（`dynamic import`）实现组件懒加载
-   - 路由级别的代码分割
-   - 大型依赖的按需加载
+Create a `.env.local` file in the root directory:
 
-2. **图片优化**
-   - 使用 Next.js 的 Image 组件
-   - 自动的图片格式转换（WebP）
-   - 响应式图片加载
-   - 图片懒加载
+```bash
+# App Environment
+NEXT_PUBLIC_APP_ENV=dev
 
-3. **字体优化**
-   - 使用 `next/font` 进行字体优化
-   - 字体子集化
-   - 字体预加载
+# API Configuration
+NEXT_PUBLIC_API_URL=https://api.example.com
 
-4. **缓存策略**
-   - 使用 SWR 进行数据缓存
-   - 静态页面生成（SSG）
-   - 增量静态再生成（ISR）
-   - 浏览器缓存优化
+# Optional: Analytics, monitoring, etc.
+# NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
+```
 
-5. **性能监控**
-   - 使用 `@next/bundle-analyzer` 分析打包大小
-   - Core Web Vitals 监控
-   - 性能指标追踪
+### Development Best Practices
 
-### 构建配置
+1. **Type Safety**
+   - Always use TypeScript
+   - Avoid `any` types
+   - Define proper interfaces
 
-```typescript
-// next.config.mjs
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
-  enabled: process.env.ANALYZE === 'true',
-})
+2. **Code Style**
+   - Follow ESLint rules
+   - Run Prettier before committing
+   - Use meaningful variable names
 
-const nextConfig = {
-  // 生产环境优化
-  compress: true,
-  poweredByHeader: false,
-  reactStrictMode: true,
-  
-  // 图片优化
-  images: {
-    domains: ['your-domain.com'],
-    formats: ['image/avif', 'image/webp'],
-  },
-  
-  // 国际化配置
-  i18n: {
-    locales: ['en', 'zh'],
-    defaultLocale: 'en',
-  },
-  
-  // 实验性功能
-  experimental: {
-    optimizeCss: true,
-    scrollRestoration: true,
-  },
+3. **Components**
+   - Keep components small and focused
+   - Use hooks for logic
+   - Implement proper error boundaries
+
+4. **Performance**
+   - Use dynamic imports for code splitting
+   - Optimize images with `next/image`
+   - Implement proper caching strategies
+
+## 🌍 Internationalization
+
+This project uses [LinguiJS](https://lingui.dev) for internationalization.
+
+### Supported Languages
+
+- 🇺🇸 English (`en`)
+- 🇨🇳 Simplified Chinese (`zh-Hans`)
+
+### Adding Translations
+
+1. **Use the Trans macro in your components:**
+
+```tsx
+import { Trans } from '@lingui/macro'
+
+export default function MyComponent() {
+  return <Trans>Hello World</Trans>
 }
-
-export default withBundleAnalyzer(nextConfig)
 ```
 
-### 性能优化命令
+2. **Extract translations:**
 
 ```bash
-# 分析打包大小
-ANALYZE=true bun run build
-
-# 生产环境构建并压缩
-bun run build:prod
-
-# 测试环境构建
-bun run build:test
-```
-
-### 优化检查清单
-
-- [ ] 使用 `next/image` 优化图片
-- [ ] 实现组件懒加载
-- [ ] 配置适当的缓存策略
-- [ ] 优化字体加载
-- [ ] 实现代码分割
-- [ ] 配置适当的预加载策略
-- [ ] 优化第三方库的引入
-- [ ] 实现适当的错误边界
-- [ ] 配置性能监控
-- [ ] 优化构建输出
-
-## 项目结构
-
-```
-src/
-├── app/                    # Next.js 14 App Router
-│   ├── [lang]/            # 国际化路由
-│   │   └── (frame)/       # 布局组件
-│   ├── components/        # 共享组件
-│   └── hooks/            # 自定义 Hooks
-├── styles/               # 全局样式
-└── utils/               # 工具函数
-```
-
-## 开发规范
-
-- 使用 TypeScript 进行开发
-- 使用 ESLint 和 Prettier 进行代码规范
-- 使用 Husky 和 lint-staged 进行提交前检查
-- 遵循 Next.js 14 的最佳实践
-
-## 国际化
-
-项目使用 LinguiJS 进行国际化管理：
-
-```bash
-# 提取翻译文本
-bun run extract
-
-# 测试提取
 bun run extract-test
 ```
 
-## 部署
+3. **Add translations to `.po` files:**
 
-项目可以部署到任何支持 Next.js 的平台，推荐使用 [Vercel](https://vercel.com) 进行部署。
+Edit `src/locales/en.po` and `src/locales/zh-Hans.po`
 
-### 部署优化建议
+4. **Commit translations:**
 
-1. **CDN 配置**
-   - 配置适当的 CDN 缓存策略
-   - 使用 CDN 进行静态资源分发
+```bash
+bun run extract  # Extracts, commits, and pushes
+```
 
-2. **服务器配置**
-   - 启用 Gzip/Brotli 压缩
-   - 配置适当的缓存头
-   - 启用 HTTP/2
+### Language Routing
 
-3. **监控和日志**
-   - 配置错误监控
-   - 设置性能监控
-   - 配置访问日志
+- Default language: English
+- URLs are prefixed with language code: `/en/...`, `/zh-Hans/...`
+- Language preference is stored in cookies
+- Automatic language detection from browser settings
 
-## 贡献指南
+## 🚀 Deployment
 
-1. Fork 项目
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 创建 Pull Request
+### Vercel (Recommended)
 
-## 许可证
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/xieburou0512/Next.js-Enterprise-Boilerplate)
 
-[MIT](LICENSE)
+1. Click the button above
+2. Configure environment variables
+3. Deploy!
+
+### Docker
+
+```dockerfile
+FROM oven/bun:1 AS builder
+WORKDIR /app
+COPY package.json bun.lockb ./
+RUN bun install --frozen-lockfile
+COPY . .
+RUN bun run build
+
+FROM oven/bun:1-slim
+WORKDIR /app
+COPY --from=builder /app/.next/standalone ./
+COPY --from=builder /app/.next/static ./.next/static
+COPY --from=builder /app/public ./public
+EXPOSE 3000
+CMD ["bun", "server.js"]
+```
+
+### Manual Deployment
+
+```bash
+# Build
+bun run build:prod
+
+# Start
+bun start
+```
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+
+### Quick Contribution Steps
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'feat: add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📝 Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for a detailed version history.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- [Next.js](https://nextjs.org) - The React Framework
+- [Vercel](https://vercel.com) - Deployment platform
+- [Bun](https://bun.sh) - Fast JavaScript runtime
+- All the amazing open-source libraries used in this project
+
+## 📬 Contact & Support
+
+- **GitHub Issues**: [Report bugs or request features](https://github.com/xieburou0512/Next.js-Enterprise-Boilerplate/issues)
+- **Discussions**: [Ask questions and share ideas](https://github.com/xieburou0512/Next.js-Enterprise-Boilerplate/discussions)
+
+---
+
+<div align="center">
+
+Made with ❤️ by [xieburou0512](https://github.com/xieburou0512)
+
+If this project helps you, please give it a ⭐!
+
+</div>

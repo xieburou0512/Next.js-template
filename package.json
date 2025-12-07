@@ -1,8 +1,32 @@
 {
-  "name": "xieburou",
+  "name": "nextjs-enterprise-boilerplate",
   "version": "0.1.0",
+  "description": "A modern, production-ready Next.js 16 enterprise boilerplate with TypeScript, internationalization, and best practices",
+  "author": "xieburou0512",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xieburou0512/Next.js-Enterprise-Boilerplate"
+  },
+  "keywords": [
+    "nextjs",
+    "next16",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "i18n",
+    "lingui",
+    "bun",
+    "pwa",
+    "enterprise",
+    "boilerplate",
+    "starter"
+  ],
   "private": true,
   "license": "MIT",
+  "engines": {
+    "node": ">=18.17.0",
+    "bun": ">=1.0.0"
+  },
   "scripts": {
     "dev": "bun --bun next dev --turbo",
     "build": "next build",
@@ -61,9 +85,6 @@
     }
   },
   "lint-staged": {
-    "plugins": [
-      "prettier-plugin-tailwindcs"
-    ],
     "*.{js,jsx,less,md,json,ts,tsx}": [
       "prettier --write"
     ],
