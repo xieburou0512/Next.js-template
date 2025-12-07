@@ -1,50 +1,96 @@
 import { type NextRequest, NextResponse, userAgent } from 'next/server'
 
 import linguiConfig from '../lingui.config'
-import { cookies } from 'next/headers'
-
 
 const { locales } = linguiConfig
 
 export function middleware(request: NextRequest) {
-	const { pathname } = request.nextUrl
-	const response = NextResponse.next()
-	const { device } = userAgent(request)
-	const viewport = device.type === 'mobile' ? 'mobile' : 'desktop'
-	response.cookies.set('CORE_VIEWPORT', viewport)
+  const { pathname } = request.nextUrl
+  const response = NextResponse.next()
+  const { device } = userAgent(request)
+  const viewport = device.type === 'mobile' ? 'mobile' : 'desktop'
+  
+  // 设置 cookie - Next.js 15 推荐的方式
+  response.cookies.set({
+    name: 'CORE_VIEWPORT',
+    value: viewport,
+    path: '/',
+  })
 
-	if (request.nextUrl.href.includes('bug=init')) {
-		response.cookies.set('bug', 'init')
-	} else if (request.nextUrl.href.includes('bug=remove')) {
-		response.cookies.delete('bug')
-	}
+  if (request.nextUrl.href.includes('bug=init')) {
+    response.cookies.set({
+      name: 'bug',
+      value: 'init',
+      path: '/',
+    })
+  } else if (request.nextUrl.href.includes('bug=remove')) {
+    response.cookies.delete('bug')
+  }
 
-	if (['/twitter', '/discord', '/unsubscribe'].includes(pathname)) {
-		return response
-	}
+  // 排除不需要处理的路由
+  if (['/twitter', '/discord', '/unsubscribe'].includes(pathname)) {
+    return response
+  }
 
-	const pathnameHasLocale = locales.some(locale => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`)
+  // 检查路径是否包含语言前缀
+  const pathnameHasLocale = locales.some(
+    locale => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
+  )
 
-	if (pathnameHasLocale) {
-		const locale = pathname.split('/')[1]
-		response.cookies.set('locale', locale || '')
-		response.cookies.set('CORE_LANG', locale)
-		return response
-	}
+  if (pathnameHasLocale) {
+    const locale = pathname.split('/')[1]
+    // 设置语言相关的 cookie
+    response.cookies.set({
+      name: 'locale',
+      value: locale || '',
+      path: '/',
+    })
+    response.cookies.set({
+      name: 'CORE_LANG',
+      value: locale || 'en',
+      path: '/',
+    })
+    return response
+  }
 
-	const locale = getRequestLocale()
-	response.cookies.set('CORE_LANG', locale)
+  // 获取请求的语言设置
+  const locale = getRequestLocale(request)
+  response.cookies.set({
+    name: 'CORE_LANG',
+    value: locale,
+    path: '/',
+  })
 
-	request.nextUrl.pathname = `/${locale}${pathname}`
-	return NextResponse.redirect(request.nextUrl)
+  // 重定向到带有语言前缀的路径
+  request.nextUrl.pathname = `/${locale}${pathname}`
+  return NextResponse.redirect(request.nextUrl)
 }
 
-function getRequestLocale(): string {
-	const cookieStore = cookies()
-	const activeLocale = `${cookieStore.get('locale')?.value || 'en'}`
-	return activeLocale
+// 从请求头中获取语言设置
+function getRequestLocale(request: NextRequest): string {
+  // 1. 先检查 cookie
+  const cookieLocale = request.cookies.get('locale')?.value
+  
+  // 2. 然后检查 Accept-Language 头
+  const acceptLanguage = request.headers.get('accept-language')
+  const preferredLocale = acceptLanguage?.split(',')[0]?.split('-')[0]
+  
+  // 3. 默认语言
+  const defaultLocale = 'en'
+  
+  // 4. 验证是否在支持的语言列表中
+  const locale = cookieLocale || preferredLocale || defaultLocale
+  
+  // 确保 locale 是支持的语言
+  if (locales.includes(locale as any)) {
+    return locale
+  }
+  
+  return defaultLocale
 }
 
 export const config = {
-	matcher: ['/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp|js|mp4|mtl|obj|json|ttf|spline)$).*)'],
+  matcher: [
+    '/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp|js|mp4|mtl|obj|json|ttf|spline)$).*)',
+  ],
 }

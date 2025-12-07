@@ -15,4 +15,4 @@ msgstr ""
 
 #. js-lingui-id: uzTaYi
 msgid "Hello"
-msgstr "321"
+msgstr ""

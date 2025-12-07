@@ -1,6 +1,6 @@
 import ky from 'ky'
 import { API_URL } from '~/config/index'
-import { setServerI18n } from '../lingui/serverI18n'
+import { setServerI18n } from '../lingui/initLingui'
 import { cookies } from 'next/headers'
 
 export interface KYData<T> {

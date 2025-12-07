@@ -1,18 +1,27 @@
-import { LinguiClientProvider } from '@/lingui/LinguiClientProvider'
-import { setServerI18n } from '@/lingui/serverI18n'
-import Providers from './providers'
-type Props = {
-	children: React.ReactNode
+import { LinguiClientProvider } from "@/lingui/LinguiClientProvider";
+import { initLingui, PageLangParam } from "~/src/lingui/initLingui";
+import Providers from "./providers";
+import linguiConfig from "~/lingui.config";
+import { PropsWithChildren } from "react";
+import { allMessages } from "~/src/lingui/appRouterI18n";
+
+export async function generateStaticParams() {
+  return linguiConfig.locales.map((lang) => ({ lang }));
 }
-
-export default async function RootLayout({ children }: Readonly<Props>) {
-	const { i18n, lang } = await setServerI18n()
-
-	return (
-		<>
-			<LinguiClientProvider initialLocale={lang} initialMessages={i18n.messages}>
-				<Providers>{children}</Providers>
-			</LinguiClientProvider>
-		</>
-	)
+export default async function RootLayout({
+  children,
+  params,
+}: PropsWithChildren<PageLangParam>) {
+  const lang = (await params).lang;
+  initLingui(lang);
+  return (
+    <>
+      <LinguiClientProvider
+        initialLocale={lang}
+        initialMessages={allMessages[lang]}
+      >
+        <Providers>{children}</Providers>
+      </LinguiClientProvider>
+    </>
+  );
 }
