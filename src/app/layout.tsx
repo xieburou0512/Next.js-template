@@ -2,15 +2,15 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Provider from "./[lang]/provider";
 import { PropsWithChildren } from "react";
-import { PageLangParam } from "../lingui/initLingui";
+import { setServerI18n } from "../lingui/initLingui";
 
 export const metadata: Metadata = {
   title: "Xieburou ",
   description: "Xieburou",
 };
 
-export default async function RootLayout({ children,params }: PropsWithChildren<PageLangParam>) {
- const lang = (await params).lang;
+export default async function RootLayout({ children }: PropsWithChildren) {
+  const { lang } = await setServerI18n();
 
   return (
     <html lang={lang} className={""}>
